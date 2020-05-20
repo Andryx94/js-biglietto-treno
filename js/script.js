@@ -13,15 +13,15 @@ if (isNaN(chilometri) || isNaN(annoNascita)) {
 else {
   if (differenzaAnni < 18) {
     var prezzo = prezzo - (prezzo * 0.2); // applica lo sconto del 20% per i minorenni
-    document.getElementById('prezzo').innerHTML =  prezzo;
+    document.getElementById('prezzo').innerHTML =  prezzo.toFixed(2);
   }
 
   else if (differenzaAnni > 65){
     var prezzo = prezzo - (prezzo * 0.4); // applica lo sconto del 40% per i maggiorenni
-    document.getElementById('prezzo').innerHTML =  prezzo;
+    document.getElementById('prezzo').innerHTML =  prezzo.toFixed(2);
   }
 
   else {
-    document.getElementById('prezzo').innerHTML =  prezzo;
+    document.getElementById('prezzo').innerHTML =  prezzo.toFixed(2);
   }
 }
