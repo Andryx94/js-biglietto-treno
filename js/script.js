@@ -1,9 +1,9 @@
-alert("Calcola il prezzo del tuo viaggio inserendo i chilometri e la tua data di nascita!");
+alert("Calcola il prezzo del viaggio inserendo la distanza e il tuo anno di nascita!");
 
 var data = new Date();
 var annoCorrente = data.getFullYear();
 document.getElementById('chilometri').innerHTML =  chilometri = parseInt(prompt("Dimmi i chilometri del tuo viaggio"));
-document.getElementById('annoNascita').innerHTML =  annoNascita = parseInt(prompt("Dimmi la tua data di nascita"));
+document.getElementById('annoNascita').innerHTML =  annoNascita = parseInt(prompt("Dimmi il tuo anno di nascita"));
 var prezzo = (chilometri * 0.21);
 var differenzaAnni = annoCorrente - annoNascita;
 
