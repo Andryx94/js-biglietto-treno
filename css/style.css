@@ -1,0 +1,22 @@
+/* Generali */
+body {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+h1 {
+  color: firebrick;
+}
+
+p, button {
+  font-size: 20px;
+}
+
+span {
+  font-weight: 800;
+}
+
+button {
+  padding: 5px 10px;
+}
+/* fine generali */
